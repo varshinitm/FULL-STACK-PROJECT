@@ -1,0 +1,29 @@
+.faculty-dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+   h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: pink;
+  }
+  
+   th, td {
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+ th {
+    background-color: #10f78b;
+    color: #333;
+  }
+  
+   /*tbody tr:hover {
+    background-color: #e94b4b;
+  }
+  */
+  

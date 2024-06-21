@@ -1,0 +1,71 @@
+.login {
+    /* Styles for Login component, e.g.: */
+    display: flex;
+    border-radius: 15px;
+    border-color: black;
+    border-style: dashed;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width:15 px;
+}
+
+
+/* AdminDashboard Component Styles */
+.admin-dashboard {
+    /* Styles for AdminDashboard component, e.g.: */
+    background-color:cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.button-container {
+    display: inline-flex;
+  }
+  
+  /* Faculty and Admin Buttons */
+  .button-container button {
+    margin-right: 2cm; /* Adjust as needed */
+  }
+ 
+
+/* Style for the container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+/* Style for file input */
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Style for upload button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for upload button on hover */
+button:hover {
+  background-color: #0056b3;
+}
+    

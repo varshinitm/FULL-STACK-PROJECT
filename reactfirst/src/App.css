@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+  /*background-image: url('C:\Users\nikhil\Reactapp\reactfirst\src\background-img.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* 
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-container form {
+  display: center;
+  
+}
+
+.login-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}*/
+
+.login-form{
+  display:center;
+  border-top: 10px;
+  height:30px;
+}
+.container {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+.login-container {
+  box-sizing: border-box;
+  margin-top:50px;
+  height: 30px;
+  width: 30px;
+  display: center;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+ 
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 15px); 
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+button {
+  width: calc(25% - 20px); 
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #9af5f0;
+}
